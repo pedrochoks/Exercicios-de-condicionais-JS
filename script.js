@@ -78,7 +78,7 @@
 //!  NIVEL INTERMEDIARIO
 
 //? Exercicio 1
-let numero1 = parseInt(prompt("Digite o primeiro numero"));
+/*let numero1 = parseInt(prompt("Digite o primeiro numero"));
 let numero2 = parseInt(prompt("Digite o segundo numero"));
 let operacao = prompt("Escreva uma operacao");
 let resultado;
@@ -105,4 +105,60 @@ else if (operacao == "multiplicacao")
 {
     resultado = numero1 * numero2;
     console.log(resultado);
+}
+
+
+//? Exercicio 2
+let numero1 = parseFloat(prompt("Digite o primeiro numero: "));
+let numero2 = parseFloat(prompt("Digite o segundo numero: "));
+let numero3 = parseFloat(prompt("Digite o terceiro numero: "));
+let maior;
+
+if(numero1 > numero2 && numero1 > numero3)
+{
+    maior = numero1;
+}
+
+else if( numero2 > numero1 && numero2 > numero3)
+{
+    maior = numero2;
+}
+else
+{
+    maior = numero3;
+}
+console.log(maior);
+
+
+//? Exercicio 3
+let valorCompra = parseFloat(prompt("Digite o valor da sua compra: "));
+
+let ValorDesconto = valorCompra/10;
+let precoFinal;
+
+if(valorCompra >= 100)
+{
+    precoFinal = valorCompra - ValorDesconto;
+}
+
+else
+{
+    precoFinal = valorCompra;
+}
+console.log(precoFinal);
+*/
+
+//? Exercicio 4
+let usuario = prompt("Digite seu usuario: ");
+let senha = prompt("Digite sua senha: ");
+
+
+if(senha == "1234" && usuario == "admin")
+{
+    console.log("Login bem-sucedido");
+}
+
+else
+{
+    console.log("Acesso negado");
 }
