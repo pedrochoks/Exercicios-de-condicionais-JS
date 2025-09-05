@@ -240,3 +240,15 @@
 // else{
 //     console.log("Esse ano nao e bissexto")
 // }
+
+//! FORMA MAIS COMPLICADA POREM SIMPLIFICADA
+
+let ano = prompt("Digite o ano:");
+
+ano = parseInt(ano);
+let resultado;
+
+((!Boolean(ano % 4) && Boolean(ano % 100)) || !Boolean(ano % 400))
+    ? resultado = "E bissexto"
+    : resultado = "Nao e bissexto";
+console.log("O ano" + ano + resultado);
